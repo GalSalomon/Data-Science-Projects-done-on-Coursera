@@ -2,7 +2,7 @@
 
 ## 1. [Comparison of House Prices before and after a recession](https://github.com/SphericalCopper/Data-Science-Projects-done-on-Coursera/blob/master/Module%201%20Assignment%204.ipynb)
 
-Pandas library is used to appropriately sort through house data in the United States, and then after achieving the intended changes, a t-test is performed on the data to compare the ratio of the mean price of houses in university towns the quarter before the recession starts, compared to at the recession bottom.
+Pandas library was used to appropriately sort through house data in the United States, and then after achieving the intended changes, a t-test was performed on the data to compare the ratio of the mean price of houses in university towns the quarter before the recession starts, compared against the quarter representing the recession bottom.
 
 - Split months of the years into quarters, and used these quarters to determine when recessions, and recession bottoms were.
 - Modified dataframe to return information on University towns. 
