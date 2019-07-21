@@ -28,4 +28,4 @@ Randomly generated numbers into a dataframe are plotted and visualized in the fo
 
 ## 4. [Link between Household income and sports participation in Singapore](https://github.com/SphericalCopper/Data-Science-Projects-done-on-Coursera/blob/master/Module%202%20Assignment%204.ipynb)
 
-Data was acquired on 1) Weekly Sports participation (https://www.msf.gov.sg/research-and-data/Research-and-Statistics/PublishingImages), and 2) Yearly income of families. A correlation between these two factors was thus visualized, observing that an increase in financial stability corresponded to an increase in leisurely activities (of which sports is one).
+Data was acquired on 1) [Weekly Sports participation](https://www.msf.gov.sg/research-and-data/Research-and-Statistics/PublishingImages), and 2) Yearly income of families. A correlation between these two factors was thus visualized, observing that an increase in financial stability corresponded to an increase in leisurely activities (of which sports is one).
