@@ -4,9 +4,23 @@
 
 Pandas library is used to appropriately sort through house data in the United States, and then after achieving the intended changes, a t-test is performed on the data to compare the ratio of the mean price of houses in university towns the quarter before the recession starts, compared to at the recession bottom.
 
+- Split months of the years into quarters, and used these quarters to determine when recessions, and recession bottoms were.
+- Modified dataframe to return information on University towns. 
+- Used  `ttest_ind` from `scipy.stats` library to conduct t-test.
+
 ## 2. [Tracking Record high and low temperatures over 10 years](https://github.com/SphericalCopper/Data-Science-Projects-done-on-Coursera/blob/master/Module%202%20Assignment%202.ipynb)
 
-In this assignment, data on temperature was used to create a visualization of record high temperatures in the area of Ann Arbor, Michigan. Points at which the previous temperature record were exceeded are also denoted. The nature of what this graph tracks is useful for keeping track of climate change. 
+In this assignment, data on temperature was used to create a visualization of record high temperatures in the area of Ann Arbor, Michigan. Points at which the previous temperature record were exceeded are also denoted. The nature of what this graph tracks is useful for keeping track of changes in typical climate behaviors. 
+
+- Used matplotlib.dates from matplotlib library to assist in plotting timeframe of days (to represent daily temperature records), using the figure of months on the x-axis.
+
+![Temperature records](https://i.gyazo.com/f14765ba8f355917db82dfba917c000f.png)
+
+- The line bars above represent the highest and lowest record temperatures set each day between the years 2005 to 2014. 
+- The points on the bar represent a temperature record (for either high or low temperature), in which the temperature observed in 2015 broke the record high or low temperature in the preceeding 10 years.
+- Notice that during the months of February, a new low temperature record was set almost daily, and by a significant margin of 5-15 degrees celcius! 
+- Likewise, in December, temperature records in 2015 broke those set in 2005-2014by margins of around 5 degrees celcius on average.
+- A graph of this nature which tracks temperature records being broken is very helpful for tracking crucial changes in the climate.
 
 ## 3. [Creating a Custom Visualization](https://github.com/SphericalCopper/Data-Science-Projects-done-on-Coursera/blob/master/Module%202%20Assignment%203.ipynb)
 
